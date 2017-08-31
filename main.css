@@ -7,9 +7,9 @@ body {
 }
 
 h1 {
-   text-align: center;
+   text-align: left;
    font-family: 'Shrikhand', cursive;
-   font-size: 70px;
+   font-size: 27px;
    color: #FFFFFF;
 }
 
@@ -17,14 +17,14 @@ a {
    color: #FFFFFF;
 } 
 
-.container { position:relative; padding:0 0 0 55px; }
+.container { position: relative; padding:0 0 0 55px; }
 #sidebar {
   
-    float: left;
+    padding: center;
     top:0; bottom:0; left:0;
     width:50px;
     background:#000;
-    margin-left:initial; 
+    float: center; 
 
     }
 
@@ -32,7 +32,7 @@ a {
     margin:0 0 5px 0;
 }
 #content { border:1px solid #000; width:200px; height:133px;
-    margin:5px 0 5px 0;
+    margin:0px 0 5px 0;
 }
 #footer { border:1px solid #000; width:200px; height:25px;
     margin:5px 0 0 0;
@@ -41,6 +41,12 @@ a {
 img{
 
    max-width: 100%;
+
+.main {
+   
+    height: 100%;
+    width: 100%;
+ }
 
 }
 }
