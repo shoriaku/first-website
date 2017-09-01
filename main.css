@@ -15,6 +15,8 @@ h1 {
 
 a { 
    color: #FFFFFF;
+   font-size: 15px;
+   font-family: 'Amatic SC', cursive; 
 } 
 
 .container { position: relative; padding:0 0 0 55px; }
